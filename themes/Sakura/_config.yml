@@ -16,7 +16,10 @@ lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progre
 
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
-  归档: { path: /archives, fa: fa-archive faa-shak}
+  归档: { path: /archives, fa: fa-archive faa-shak, submenus: {
+    技术: {path: /categories/技术/, fa: fa-headphones},
+    学习: {path: /categories/学习/, fa: fa-link faa-shake}
+  }}
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
     歌单: {path: /music/, fa: fa-headphones }
   } }
@@ -83,7 +86,7 @@ donate:
 movies:
   url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2
   # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
-  name: Unbroken.mp4
+  name: 
 
 aplayer: 
   id: 3226150252
