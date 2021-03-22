@@ -88,7 +88,7 @@ deploy:
 # backup
 backup:
   type: git
-  message: backup my blog of https://yourname.github.io/
+  message: backup my blog of https://www.worldeightclient.top/
   repository:
     github: git@github.com:EigntOneEight/backup.git
     # coding: https://git.coding.net/hojun/hojun.git,backup
