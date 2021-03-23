@@ -17,8 +17,8 @@ lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progre
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
   归档: { path: /archives, fa: fa-archive faa-shak, submenus: {
-    技术: {path: /categories/技术/, fa: fa-headphones},
-    学习: {path: /categories/学习/, fa: fa-link faa-shake}
+    技术: {path: /categories/技术/, fa: fa-code},
+    学习: {path: /categories/学习/, fa: fa-leanpub}
   }}
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
     歌单: {path: /music/, fa: fa-headphones }
